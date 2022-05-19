@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564223729243",
+    "project_id": "adroit-hall-345611",
+    "storage_bucket": "adroit-hall-345611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564223729243:android:270f00ce0c9432ebfa297e",
+        "android_client_info": {
+          "package_name": "com.example.yol_takip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564223729243-op5doljj30tp6u600tgidjh4f5gh719m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDARrYxEFwWU2D-FhJ5Z8dcyZqNEqFRqAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564223729243-op5doljj30tp6u600tgidjh4f5gh719m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

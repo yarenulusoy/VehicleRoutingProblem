@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:paddingTop="800px"
+    tools:context=".UserActivity">
+
+
+    <Spinner
+        android:background="@drawable/rounded_edittext"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:id="@+id/spinDurak"
+        android:autofillHints="Durak Seçiniz"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/btn_talep"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talep Et"
+        android:textColor="@color/white"
+        android:layout_marginTop="200px"
+        app:layout_constraintTop_toBottomOf="@+id/spinDurak"
+   />
+
+    <Button
+        android:id="@+id/btn_rota"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rota Oluştur"
+        android:textColor="@color/white"
+        android:layout_marginTop="200px"
+        app:layout_constraintTop_toBottomOf="@+id/btn_talep"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

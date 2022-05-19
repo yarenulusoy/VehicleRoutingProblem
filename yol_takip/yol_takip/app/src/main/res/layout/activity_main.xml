@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okul Servis Sistemi"
+        android:textColor="@color/grey"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/kullanici_adi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+    <EditText
+        android:id="@+id/kullanici_adi"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_style"
+        android:drawableTint ="@color/colorAccent"
+        android:paddingLeft="30dp"
+        android:elevation="10dp"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/person"
+        android:hint="  Kullanıcı Adı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifre"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/login_style"
+        android:elevation="10dp"
+        android:paddingLeft="20dp"
+        android:hint=" Şifre"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullanici_adi"
+        app:layout_constraintVertical_bias="0.138"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+
+
+
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Giriş Yap"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifre"
+        app:layout_constraintVertical_bias="0.286"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/btn_kayit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Kayıt Ol"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_giris"
+        app:layout_constraintVertical_bias="0.286"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

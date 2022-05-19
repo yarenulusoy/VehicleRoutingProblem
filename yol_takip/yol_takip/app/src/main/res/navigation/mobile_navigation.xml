@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.yol_takip.ui.home.HomeFragment"
+        android:label="Admin Paneli"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_station"
+        android:name="com.example.yol_takip.ui.station.StationFragment"
+        android:label="Durak Ekle"
+        tools:layout="@layout/fragment_station" />
+
+    <fragment
+        android:id="@+id/nav_pass"
+        android:name="com.example.yol_takip.ui.pass.PassFragment"
+        android:label="Yolcu Ekle"
+        tools:layout="@layout/fragment_pass" />
+
+    <fragment
+        android:id="@+id/nav_route"
+        android:name="com.example.yol_takip.ui.routing.RoutingFragment"
+        android:label="Rota"
+        tools:layout="@layout/fragment_routing" />
+    <fragment
+        android:id="@+id/nav_out"
+        android:name="com.example.yol_takip.ui.out.OutFragment"
+        android:label="Rota"
+        tools:layout="@layout/fragment_routing" />
+
+</navigation>

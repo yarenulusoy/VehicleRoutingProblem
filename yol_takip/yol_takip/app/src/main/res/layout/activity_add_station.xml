@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStation">
+
+
+    <EditText
+        android:hint="Durak Adi"
+        android:id="@+id/durak_adi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:hint="lat"
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/durak_adi"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:hint="long"
+        android:id="@+id/lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lat"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/btn_durak_ekle"
+        android:text="Durak Ekle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lang"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

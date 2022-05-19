@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:paddingLeft="50px"
+    android:paddingRight="50px"
+    android:paddingTop="300px"
+    android:layout_height="match_parent"
+    tools:context=".ui.station.StationFragment" >
+
+
+    <EditText
+        android:padding="20px"
+        android:hint="Durak Adi"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/durak_adi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:padding="20px"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Latitude"
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/durak_adi"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="20px"
+        android:hint="Longitude"
+        android:id="@+id/lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lat"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:id="@+id/btn_durak_ekle"
+        android:text="Durak Ekle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lang"/>
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="20px"
+        android:id="@+id/maliyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btn_durak_ekle"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:id="@+id/btn2"
+        android:text="Maliyet Değiştir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/maliyet"/>
+    <EditText
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="20px"
+        android:id="@+id/kapasite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:id="@+id/btn3"
+        android:text="Kapasite Değiştir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/kapasite"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
