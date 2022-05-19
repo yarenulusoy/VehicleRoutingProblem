@@ -1,5 +1,5 @@
 import googlemaps
-gmaps =googlemaps.Client(key='AIzaSyDARrYxEFwWU2D-FhJ5Z8dcyZqNEqFRqAo')
+gmaps =googlemaps.Client(key='yourapikey')
 from firebase_admin import credentials
 from firebase_admin import firestore
 import numpy as np
