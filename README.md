@@ -44,8 +44,8 @@ Veri tabanı olarak Firebase kullanılmıştır.
   title="Optional title"
   style="display: inline-block; margin: 0 auto; width: 300px"> 
   
-  -Durak ekle kısmından istediğimiz konumu yeni bir durak olarak ekleyebiliriz.
-  -aDefault olarak tanımlı maliyet ve servis kapatilerini admin olarak değiştirebiliriz.Yolcu ekle panelimizden durak seçilerek duraklarımızda kaç yolcunun bekleyeceği yazılır.
+  -Durak ekle kısmından istediğimiz konumu yeni bir durak olarak ekleyebiliriz. \
+  -Default olarak tanımlı maliyet ve servis kapatilerini admin olarak değiştirebiliriz.Yolcu ekle panelimizden durak seçilerek duraklarımızda kaç yolcunun bekleyeceği yazılır.
 
   
   
