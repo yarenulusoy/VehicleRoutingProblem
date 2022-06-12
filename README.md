@@ -1,7 +1,7 @@
 # VehicleRoutingProblem
  Servis Rota Sistemi Mobil Uygulaması
  
-Kocaeli’nin ilçelerinden Kocaeli Universitesi’ne gelen servis araçları için yolcu ve rota planlaması yapmanız istenmektedir. Yolculardan talep alınarak işletilen bu sistemde yolcular için dinamik olarak rota planlamaları yapılacaktır. Belirli araç ve durak sayısı bilgilerinin,duraklardaki yolcu sayısı bilgisi ile birleştirilerek en optimum rotaların oluşturulması hedeflenmektedir. Bunu yaparken araçların kiralama maliyeti ve yakıt tüketiminin de hesaplanarak yol-maliyet optimizasyonu da yapılması beklenmektedir.
+Kocaeli’nin ilçelerinden Kocaeli Universitesi’ne gelen servis araçları için yolcu ve rota planlaması yapılmaktadır. Belirli araç ve durak sayısı bilgilerinin,duraklardaki yolcu sayısı bilgisi ile birleştirilerek en optimum rotaların oluşturulması hedeflenmektedir. Bunu yaparken araçların kiralama maliyeti ve yakıt tüketiminin de hesaplanarak yol-maliyet optimizasyonu da yapılmıştır.
 
 Kullanıcı panelinde bineceği durak seçilir,Yönetim panelinde yeni duraklar eklenir binecek yolcu sayısı ve durak bilgileriyle rota planlaması olusturulur
 Rota planlaması yapıldıktan sonra kullanıcılara bineceği aracın rotası gösterilir. \
